@@ -10,6 +10,6 @@ public class Sistema {
         GerenciadorImpressao g2 = GerenciadorImpressao.getInstancia();
         g2.imprimir("Contrato do Cliente");
 
-        System.out.println(g1 == g2); // true
+        System.out.println(g1 == g2);
     }
 }
